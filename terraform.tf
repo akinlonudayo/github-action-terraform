@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "metroc-terraform-2025-tfstate "
+    bucket = "demobucket2025oct23"
     key    = "demobucket2025oct23/terraform.tfstate"
     region = "ca-central-1"
   }
